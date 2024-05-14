@@ -216,7 +216,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -537,8 +537,22 @@ img.image_3 {
     width: 100%;
     float: left;
     background: linear-gradient(to right, #693dab, #cd29a2);
-    padding-bottom: 90px;
+    padding-bottom: 20px;
 }
+#ovliin-nahia{
+    margin: auto;
+    justify-content: center;
+    
+}
+#ovliin-nahia img{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
 
 .marriage_img {
     width: 100%;
@@ -596,6 +610,11 @@ img.image_3 {
 .marriage_taital_left {
     width: 30%;
     float: left;
+}
+.marriage_taital_left img {
+    width: 120px;
+    height: 220px;
+    margin: 20px 15px;
 }
 
 .marriage_taital_right {
