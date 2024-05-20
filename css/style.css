@@ -533,11 +533,21 @@ img.image_3 {
 
 /* marriage section start */
 
+
+.holtos-nahia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
 .marriage_section {
+    
+    padding-top: 50px;
     width: 100%;
     float: left;
-    background: linear-gradient(to right, #693dab, #cd29a2);
-    padding-bottom: 20px;
+    background: linear-gradient(to right, #92952a, #c2d897);
+   
+    
 }
 #ovliin-nahia{
     margin: auto;
@@ -545,6 +555,7 @@ img.image_3 {
     
 }
 #ovliin-nahia img{
+    
     width: 60%;
     height: auto;
     justify-content: center;
@@ -555,12 +566,15 @@ img.image_3 {
 
 
 .marriage_img {
-    width: 100%;
-    float: left;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .marriage_img img {
+   
     width: 100%;
     height: 100%;
     -webkit-mask-image: linear-gradient(to right, transparent, black 50%, black 50%, transparent),
@@ -571,7 +585,8 @@ img.image_3 {
                  linear-gradient(to left, transparent, black 50%, black 50%, transparent),
                  linear-gradient(to bottom, transparent, black 50%, black 50%, transparent),
                  linear-gradient(to top, transparent, black 50%, black 50%, transparent);
-}
+    border-radius: 20px;
+                }
 
 
 
@@ -580,13 +595,19 @@ img.image_3 {
 }
 
 .marriage_taital_main {
-    width: 80%;
-    float: left;
+    
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+   
 }
 
 .marriage_taital {
+    margin-top: 1rem;
+    margin-left: 1rem;
     width: 100%;
-    float: left;
+    align-items: center;
+    justify-content: center;
     font-size: 28px;
     color: #ffffff;
     font-weight: bold;
@@ -603,23 +624,29 @@ img.image_3 {
 
 .marriage_section_2 {
     width: 100%;
-    float: left;
+    display: flex;
+    flex-direction: row;
     padding-top: 0px;
+    justify-content: space-between;
+    
+    
 }
 
 .marriage_taital_left {
-    width: 30%;
+    width: 60%;
     float: left;
+    align-items: center;
 }
 .marriage_taital_left img {
     width: 120px;
     height: 220px;
-    margin: 20px 15px;
+    margin: 50px 20px 30px 20px;
 }
 
 .marriage_taital_right {
-    width: 70%;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .car_image {
@@ -648,10 +675,11 @@ img.image_3 {
 
 .long_text {
     width: 100%;
-    float: left;
     font-size: 16px;
     color: #ffffff;
     margin: 0px;
+    text-align: justify;
+    
 }
 
 
