@@ -546,7 +546,7 @@ img.image_3 {
     padding-bottom: 3rem;
     width: 100%;
     float: left;
-    background: linear-gradient(to right, #92952a, #c2d897);
+    background: linear-gradient(to right, #91952afa, #768f45);
   
    
     
@@ -572,8 +572,7 @@ img.image_3 {
     margin: auto;
     margin-top: 4rem;
     
-    align-items: center;
-    justify-content: center;
+
     height: 95%
 
 }
