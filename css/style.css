@@ -543,9 +543,11 @@ img.image_3 {
 .marriage_section {
     
     padding-top: 50px;
+    padding-bottom: 3rem;
     width: 100%;
     float: left;
     background: linear-gradient(to right, #92952a, #c2d897);
+  
    
     
 }
@@ -568,8 +570,12 @@ img.image_3 {
 .marriage_img {
     width: 90%;
     margin: auto;
+    margin-top: 4rem;
+    
     align-items: center;
     justify-content: center;
+    height: 95%
+
 }
 
 
